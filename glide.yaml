@@ -1,0 +1,14 @@
+package: github.com/amoniacou/tools
+import:
+- package: github.com/amoniacou/hubspot
+- package: github.com/urfave/cli
+  version: ^1.19.1
+- package: google.golang.org/api
+  subpackages:
+  - sheets/v4
+- package: golang.org/x/oauth2
+  subpackages:
+  - '...'
+- package: golang.org/x/net
+  subpackages:
+  - context
